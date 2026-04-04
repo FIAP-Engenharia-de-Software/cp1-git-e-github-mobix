@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Connect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
             font-family: 'Open Sans',Arial, sans-serif;
@@ -79,7 +80,37 @@
             line-height: 1.6;
         }
 
+        .contato {
+            padding: 40px 20px;
+            background-color: #f0f4f8;
+            border-radius: 8px;
+        }
 
+        .contato-cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-top: 4px solid #2980b9;
+        }
+
+        .card h3 {
+            color: #2980b9;
+        }
+
+        .card-icone {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    
         footer {
             background-color: red;
             color: #fff;
@@ -121,11 +152,25 @@
             <p>A equipe da Social Connect é ...</p>
             <img src="imagens/equipe.jpg" alt="Nossa Equipe">
         </section>
-        <section>
-            <h2>Aqui deve conter uma seção de Contato</h2>
-            <p>xxxxxxxxxx</p>
-            <p>xxxxxxxxxx</p>
-            <p>xxxxxxxxxxx</p>
+        <section class="contato">
+            <h2>Contato</h2>
+            <div class="contato-cards">
+                <div class="card">
+                    <div class="card-icone"><i class="fa-solid fa-phone"></i></div>
+                    <h3>Telefone</h3>
+                    <p>(11) 9999-9999</p>
+                </div>
+                <div class="card">
+                    <div class="card-icone"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>E-mail</h3>
+                    <p>contato@socialconnect.com.br</p>
+                </div>
+                <div class="card">
+                    <div class="card-icone"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Horário de Atendimento</h3>
+                    <p>Segunda a Sexta, das 8h às 18h</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
