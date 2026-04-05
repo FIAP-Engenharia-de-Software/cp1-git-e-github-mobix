@@ -20,4 +20,4 @@ A Social Connect é uma plataforma inovadora de conexão entre pessoas e empresa
 | Vitor Borin | RM573194 |
 
 ## Link do Site
-Em breve...
+[Social Connect](https://fiap-engenharia-de-software.github.io/cp1-git-e-github-mobix/)
